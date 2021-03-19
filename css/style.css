@@ -2,10 +2,9 @@
     font-size: 15px;
 }
 
-@media screen and (max-device-width: 480px) /* Règles CSS pour mobiles */ {
+@media screen and (max-device-width: 480p) {
+    /* Règles CSS pour mobiles */
 }
-
-/* Header */
 
 nav ul {
     display: flex;
