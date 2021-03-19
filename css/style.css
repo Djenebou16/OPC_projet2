@@ -2,7 +2,7 @@
     font-size: 15px;
 }
 
-@media screen and (max-device-width: 480p) {
+@media screen and (max-width: 1280p) {
     /* Règles CSS pour mobiles */
 }
 
