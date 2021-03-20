@@ -1,11 +1,68 @@
 :root {
-    font-size: 15px;
+    font-size: 10px;
 }
 
-@media screen and (max-width: 1280p) {
-    /* Règles CSS pour mobiles */
+h1 {
+    font-size: 1.6rem;
 }
 
-nav ul {
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+#navbar {
+    grid-area: navbar;
+}
+#search-form {
+    grid-area: search-form;
+}
+#accomodation {
+    grid-area: accomodation;
+}
+#populary {
+    grid-area: populary;
+}
+#activities {
+    grid-area: activities;
+}
+#footer {
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "navbar"
+        "search-form"
+        "populary"
+        "accomodation"
+        "activities"
+        "footer";
+}
+
+#seulement {
+    display: block;
+    display: inline;
+    display: inline-block;
     display: flex;
+    display: grid;
+    grid-template-areas: "";
+    position: absolute;
+    position: relative;
 }
