@@ -2,19 +2,32 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-with" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no"
+        />
         <script
             src="https://kit.fontawesome.com/47bb0ce004.js"
             crossorigin="anonymous"
         ></script>
         <link rel="stylesheet" href="css/normalizer.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="css/tablett.css"
+            media="screen and (min-width: 426px)"
+        />
+        <link
+            rel="stylesheet"
+            href="css/desktop.css"
+            media="screen and (min-width: 769px)"
+        />
         <title>Reservia</title>
     </head>
 
     <!-- HEADER -->
     <body>
-        <header style="background-color: greenyellow">
+        <header id="navbar" style="background-color: greenyellow">
             <nav>
                 <ul style="background-color: blueviolet">
                     <li style="background-color: rgb(173, 173, 76)">
@@ -39,7 +52,7 @@
 
         <!-- SEARCH -->
 
-        <form method="post" style="background-color: pink">
+        <form id="search-form" method="post" style="background-color: pink">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
 
@@ -80,7 +93,7 @@
         <!-- SEARCH -->
 
         <!-- MAIN -->
-        <section style="background-color: gray">
+        <section id="accomodation" style="background-color: gray">
             <h3>Hébergements à Marseille</h3>
             <a href="#">
                 <figure>
@@ -205,7 +218,7 @@
         <!-- MAIN -->
 
         <!-- POPULAIRES -->
-        <section style="background-color: palegreen">
+        <section id="populary" style="background-color: palegreen">
             <h3>Les plus populaires</h3>
             <a href="#">
                 <figure>
@@ -215,7 +228,7 @@
                     />
                     <figcaption>
                         <h4>Hôtel Le soleil du matin</h4>
-                        <p><Nuit à partir de 128€</p>
+                        <p>Nuit à partir de 128€</p>
                         <div>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -270,7 +283,7 @@
         <!-- POPULAIRES -->
 
         <!-- ACTIVITES -->
-        <section style="background-color: orange">
+        <section id="activities" style="background-color: orange">
             <h3>Activités à Marseille</h3>
             <a href="#">
                 <figure>
@@ -347,7 +360,7 @@
         <!-- ACTIVITES -->
 
         <!-- FOOTER -->
-        <footer style="background-color: mediumslateblue">
+        <footer id="footer" style="background-color: mediumslateblue">
             <h4>A propos</h4>
             <ul>
                 <li><a href="#">Fonctionnement du site</a></li>
