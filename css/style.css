@@ -26,21 +26,28 @@ h6 {
     font-size: 1.1rem;
 }
 
-#navbar {
+#navbar ul {
     grid-area: navbar;
+    display: flex;
 }
+
 #search-form {
     grid-area: search-form;
 }
+
 #accomodation {
     grid-area: accomodation;
+    display: grid;
 }
+
 #populary {
     grid-area: populary;
 }
+
 #activities {
     grid-area: activities;
 }
+
 #footer {
     grid-area: footer;
 }
