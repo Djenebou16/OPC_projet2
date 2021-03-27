@@ -72,12 +72,10 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 50px;
 }
 
-#seach-form {
+#seach-form button {
     grid-area: search-form;
-}
-
-#accomodation {
-    grid-area: accomodation;
 }
