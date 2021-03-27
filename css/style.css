@@ -26,18 +26,12 @@ h6 {
     font-size: 1.1rem;
 }
 
-#navbar ul {
-    grid-area: navbar;
-    display: flex;
-}
-
 #search-form {
     grid-area: search-form;
 }
 
 #accomodation {
     grid-area: accomodation;
-    display: grid;
 }
 
 #populary {
@@ -72,4 +66,18 @@ body {
     grid-template-areas: "";
     position: absolute;
     position: relative;
+}
+
+#navbar ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#seach-form {
+    grid-area: search-form;
+}
+
+#accomodation {
+    grid-area: accomodation;
 }
