@@ -76,6 +76,22 @@ body {
     height: 50px;
 }
 
-#seach-form button {
+#seach-form {
     grid-area: search-form;
+}
+
+#populary {
+    grid-area: populary;
+}
+
+#accomodation {
+    grid-area: accomodation;
+}
+
+#activities {
+    grid-area: activities;
+}
+
+#footer {
+    grid-area: footer;
 }
