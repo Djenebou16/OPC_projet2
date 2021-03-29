@@ -70,10 +70,26 @@ body {
 
 #navbar ul {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    width: 100%;
-    height: 50px;
+    grid-template-areas:
+        "logo register"
+        "accomodation activities";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+}
+#logo {
+    grid-area: logo;
+}
+
+#register {
+    grid-area: register;
+}
+
+#accomodation {
+    grid-area: accomodation;
+}
+
+#activities {
+    grid-area: activities;
 }
 
 #seach-form {
@@ -82,6 +98,7 @@ body {
 
 #populary {
     grid-area: populary;
+    display: flex;
 }
 
 #accomodation {
