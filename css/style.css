@@ -68,20 +68,16 @@ body {
     position: relative;
 }
 
-#navbar ul {
-    display: grid;
-    grid-template-areas:
-        "logo register"
-        "accomodation activities";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 50px;
-}
-#logo {
-    grid-area: logo;
+#navbar {
+    grid-area: navbar;
 }
 
 #register {
     grid-area: register;
+}
+
+#seach-form {
+    grid-area: search-form;
 }
 
 #accomodation {
@@ -92,19 +88,28 @@ body {
     grid-area: activities;
 }
 
-#seach-form {
-    grid-area: search-form;
+#navbar ul {
+    display: grid;
+    grid-template-areas:
+        "logo register"
+        "accomodation activities";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+}
+
+#logo {
+    grid-area: logo;
 }
 
 #populary {
-    grid-area: populary;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 100%;
     height: 1fr;
 }
 
-figcaption {
+#title {
+    align-self: left;
 }
 
 #accomodation {
