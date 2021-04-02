@@ -77,28 +77,31 @@ body {
     grid-template-rows: 50px 50px;
 }
 
-li {
+#populary li {
     display: block;
     height: 50px;
     line-height: 50px;
     text-align: center;
 }
 
-figure {
+#populary figure {
     display: flex;
     gap: 10%;
     text-align: start;
 }
 
-figure img {
+#populary figure img {
     width: 300px;
     margin: 15px;
     padding: 15px;
 }
 
-h3 {
-    margin: 10px;
-    padding: 10px;
+#populary h3 {
+    margin: 15px;
+    padding: 15px;
+}
+
+#populary figcaption {
 }
 
 #accomodation {
